@@ -1,0 +1,44 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.keys{
+    display: flex;
+    flex: 1;
+    min-height: 100vh; /*viewport height */
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: 0.4rem solid black;
+    border-radius: 0.5rem;
+    background-color: aqua;   
+    font-size: 1.5rem;
+    width: 10rem;
+    text-align: center;
+    transition: all 0.7s ease;
+}
+
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: brown;
+    box-shadow: 1rem blue;
+}
+
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: black;
+}
